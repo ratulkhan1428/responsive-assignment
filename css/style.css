@@ -1,3 +1,7 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150px;
+}
 .top-bar{
     margin-bottom: 20px;
 }
@@ -9,12 +13,12 @@
     width: 100%;
 
 }
-h1{
-    font-size: 50px;
+h1, h2, h3{
+    font-family: 'Bebas Neue', cursive;
 }
 .button{
     background-color: rgb(111, 168, 31);
-    width: 35%;
+    width: 30%;
     height: 60px;
     color: white;
     font-weight: 800;
@@ -39,13 +43,14 @@ header{
     height: 100px;
 }
 .woman{
-    margin-top: 600px;
+    margin-top: 500px;
 }
 .title{
     margin-bottom: 50px;
 }
 .panda-card{
     border: 0;
+    border-radius: 30px;
 }
 .panda-card-footer{
     border: 0;
@@ -57,9 +62,8 @@ header{
     margin-bottom: 150px;
 }
 .helpbox{
-    margin-top: 900px;
-    margin-bottom: 200px;
+    margin-top: 200px;
+    margin-bottom: 50px;
     width: 100%;
     height: 200px;
-    padding-left: 350px;
 }

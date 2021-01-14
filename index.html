@@ -7,50 +7,55 @@
     <link rel="shortcut icon" href="Logo, Icon/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
 </head>
 <body class="container">
-    <div class="mt-5">
-        <img style="width: 25%;" src="Logo, Icon/Group 33072.png" alt="">
-    </div>
-    <div class="top-bar">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img style="width: 60%;" src="Logo, Icon/Group 33072.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#product">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/rj-ratul-5939b2202/">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/rj-ratul-5939b2202/">Contact Us</a>
-            </li>
-          </ul>
-    </div>    
+              <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/rj-ratul-5939b2202/">About Us</a>
+              <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/rj-ratul-5939b2202/">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <header>
         <section>
-            <div class="half-width mt-5">
-                <h1>BE THE PENGUINS</h1>
-                <h1>OF WINTER</h1>
+          <div class="row">
+            <div class="col-md-6 mt-5">
+              <h1 style="color: coral;">BE THE PENGUINS</h1>
+                <h1 style="color: cornflowerblue;">OF WINTER</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing  and typesetting industry.</p>
             <div class="button rounded d-flex justify-content-around align-items-center">
                 <img src="Logo, Icon/shopping-cart 1.png" alt="">
                 <h5>BUY NOW</h5>
             </div>
             </div>
-            <div class="half-width">
-                <img style="margin-left: 80px;" src="images/profile.png" alt="">
+            <div class="col-md-6">
+              <div>
+                <img style="margin-left: 80px; width: 70%;" src="images/profile.png" alt="">
             </div>
+            </div>
+          </div>
+                
+            
         </section>
     </header>
     <main>
-        <section class="woman">
+        <section id="product" class="woman">
             <h2 id="product" class="title">WOMAN JACKET</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card panda-card h-100 shadow">
-                    <img style="width: 80%;" src="Images/SeekPng 1.png" class="card-img-top" alt="...">
+                    <img style="width: 80%; margin-left: 30px; padding: 20px;" src="Images/SeekPng 1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title">Yellow Coat Jacket</h3>
                       <p class="card-text">Lorem Ipsum is simply dummy text of the  printing and typesetting industry.</p>
@@ -58,15 +63,15 @@
                     <div class="card-footer panda-card-footer">
                       <h3>$234</h3>
                       <div class="card-button rounded d-flex justify-content-around align-items-center">
-                        <img src="Logo, Icon/shopping-cart 1.png" alt="">
-                        <h5>BUY NOW</h5>
+                        <img class="col-md-6" src="Logo, Icon/shopping-cart 1.png" alt="">
+                        <h5 class="col-md-6">BUY NOW</h5>
                     </div>
                     </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card panda-card h-100 shadow">
-                    <img style="width: 60%;" src="Images/PngItem_2597366 1.png" class="card-img-top" alt="...">
+                    <img style="width: 60%; margin-left: 60px; padding: 20px;" src="Images/PngItem_2597366 1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title">Ladies Jacket</h3>
                       <p class="card-text">Lorem Ipsum is simply dummy text of the  printing and typesetting industry.</p>
@@ -74,15 +79,15 @@
                     <div class="card-footer panda-card-footer">
                         <h3>$234</h3>
                         <div class="card-button rounded d-flex justify-content-around align-items-center">
-                            <img src="Logo, Icon/shopping-cart 1.png" alt="">
-                            <h5>BUY NOW</h5>
+                            <img class="col-md-6" src="Logo, Icon/shopping-cart 1.png" alt="">
+                            <h5 class="col-md-6">BUY NOW</h5>
                         </div>
                     </div>
                   </div>
                 </div>
                 <div class="col">
                   <div class="card panda-card h-100 shadow">
-                    <img style="width: 80%;" src="Images/image 15.png" class="card-img-top" alt="...">
+                    <img style="width: 65%; margin-left: 60px; padding: 20px;" src="Images/image 15.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title">Woman Leather Jacket</h3>
                       <p class="card-text">Lorem Ipsum is simply dummy text of the  printing and typesetting industry.</p>
@@ -90,8 +95,8 @@
                     <div class="card-footer panda-card-footer">
                         <h3>$234</h3>
                         <div class="card-button rounded d-flex justify-content-around align-items-center">
-                            <img src="Logo, Icon/shopping-cart 1.png" alt="">
-                            <h5>BUY NOW</h5>
+                            <img class="col-md-6" src="Logo, Icon/shopping-cart 1.png" alt="">
+                            <h5 class="col-md-6">BUY NOW</h5>
                         </div>
                     </div>
                   </div>
@@ -103,7 +108,7 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card panda-card h-100 shadow">
-                    <img style="width: 60%;" src="Images/image 11.png" class="card-img-top" alt="...">
+                    <img style="width: 65%; margin-left: 60px; padding: 20px;" src="Images/image 11.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title">Snowboard Jacket Mens</h3>
                       <p class="card-text">Lorem Ipsum is simply dummy text of the  printing and typesetting industry.</p>
@@ -119,7 +124,7 @@
                 </div>
                 <div class="col">
                   <div class="card panda-card h-100 shadow">
-                    <img style="width: 70%;" src="Images/vippng 1.png" class="card-img-top" alt="...">
+                    <img style="width: 82%; margin-left: 60px; padding: 20px;" src="Images/vippng 1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title">Man Leather Jackets</h3>
                       <p class="card-text">Lorem Ipsum is simply dummy text of the  printing and typesetting industry.</p>
@@ -135,7 +140,7 @@
                 </div>
                 <div class="col">
                   <div class="card panda-card h-100 shadow">
-                    <img style="width: 60%;" src="Images/toppng 1.png" class="card-img-top" alt="...">
+                    <img style="width: 60%; margin-left: 60px; padding: 20px;" src="Images/toppng 1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title">Man Casual Jackets</h3>
                       <p class="card-text">Lorem Ipsum is simply dummy text of the  printing and typesetting industry.</p>
@@ -151,37 +156,76 @@
                 </div>
               </div>
         </section>
-        <SEction>
-            <div class="half-width">
-                <div class="d-grid gap-3">
-                    <div class="p-2 bg-light border"><img style="width: 20%;" src="Logo, Icon/image 12.png" alt="">
-                        <h3>Find the Perfect Fit</h3>
-                        <p>Everybody is different, which is why we offer styles for every body.</p>
+        <section>
+          <div class="bottom-card">
+            <div class="row">
+              <div class="col mt-5">
+                <div class="card mb-3" style="max-width: 540px; border: 0; background-color:seashell;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img style="width:50%; margin-left: 60px; margin-top: 10px;" src="Logo, Icon/image 12.png" alt="...">
                     </div>
-                    <div class="p-2 bg-light border"><img style="width: 20%;" src="Logo, Icon/image 13.png" alt="">
-                        <h3>Free Exchanges</h3>
-                        <p>One of the many reasons you can shop with peace of mind.</p>
-                    </div>
-                    <div class="p-2 bg-light border"><img style="width: 20%;" src="Logo, Icon/image 14.png" alt="">
-                        <h3>Contact Our Seller</h3>
-                        <p>They are here to help you. That's quite  literally what we pay them for.</p>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Find the Perfect Fit</h5>
+                        <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+                      </div>
                     </div>
                   </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px; border: 0; background-color:seashell;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img style="width:50%; margin-left: 60px; margin-top: 10px;" src="Logo, Icon/image 13.png" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Free Exchanges</h5>
+                        <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px; border: 0; background-color:seashell;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img style="width:50%; margin-left: 60px; margin-top: 10px;" src="Logo, Icon/image 14.png" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Contact Our Seller</h5>
+                        <p class="card-text">They are here to help you. That's quite  literally what we pay them for.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img style="width: 100%; margin-top: 50px;" src="Logo, Icon/XMLID 1.png" class="img-fluid" alt="...">
+              </div>
             </div>
-            <div class="half-width">
-                <img style="width: 130%; margin-left: 60px; margin-top: 80px;" src="Logo, Icon/XMLID 1.png" alt="">
-            </div>
-        </SEction>
-        <section class="bg-secondary mt-5 align-items-center justify-content-center">
+          </div>
+        </section>
+        <section class="bg-light" style="width: 100%; margin-left: 20px;">
             <div class="helpbox">
-                <h1>Need help?</h1>
+              <div class="row">
+                <div class="col-md-4">
+                  <h1>Need help?</h1>
                 <h5>Visit the help section or contact us</h5>
-                <input style="width: 500px; height: 100px;" type="text" placeholder="Your voice is important. Help us make it easier to find what you want.">
+                </div>
+                <div class="col">
+                  <input style="width: 200px; height: 100px;" type="text" placeholder="Write something.">
                 <button>SUBMIT</button>
+                </div>
+              </div>
+                
+                
             </div>
         </section>
     </main>
-            
+    <footer class="text-center mt-5">
+      <small>©2021. Penguin Fashion. All rights reserved by Ratul Khan.</small>
+  </footer> 
     
     <script src="js/bootstrap.min.js"></script>
 </body>
