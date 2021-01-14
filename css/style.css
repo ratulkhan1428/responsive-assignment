@@ -1,0 +1,65 @@
+.top-bar{
+    margin-bottom: 20px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+
+}
+h1{
+    font-size: 50px;
+}
+.button{
+    background-color: rgb(111, 168, 31);
+    width: 35%;
+    height: 60px;
+    color: white;
+    font-weight: 800;
+    padding: 30px;
+    
+}
+.card-button{
+    background-color: rgb(111, 168, 31);
+    width: 45%;
+    height: 60px;
+    color: white;
+    font-weight: 800;
+    padding: 30px;
+}
+.card-button img{
+    width: 20%;
+}
+.button img{
+    width: 20%;
+}
+header{
+    height: 100px;
+}
+.woman{
+    margin-top: 600px;
+}
+.title{
+    margin-bottom: 50px;
+}
+.panda-card{
+    border: 0;
+}
+.panda-card-footer{
+    border: 0;
+    background-color: white;
+    display:inline-flex;
+    gap: 150PX;
+}
+.woman, .man{
+    margin-bottom: 150px;
+}
+.helpbox{
+    margin-top: 900px;
+    margin-bottom: 200px;
+    width: 100%;
+    height: 200px;
+    padding-left: 350px;
+}
